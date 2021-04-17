@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Этот файл используется процессом публикации или упаковки вашего веб-проекта. Можно настроить поведение этого процесса,
+изменив этот файл MSBuild. Подробности см. на странице https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword />
+    <History>True|2021-04-16T20:55:59.0128746Z;True|2021-04-16T23:45:37.2477760+03:00;True|2021-04-16T19:40:53.6045101+03:00;False|2021-04-16T19:37:13.3599214+03:00;False|2021-04-16T19:27:56.2418253+03:00;False|2021-04-16T19:26:21.9024705+03:00;False|2021-04-16T19:24:23.3205396+03:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="WebAPIContext">
+      <Value>Server=DESKTOP-94JSSME%3bDatabase=WebAPI%3bTrusted_Connection=True%3bMultipleActiveResultSets=true</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="WebAPI.Data.WebAPIContext">
+      <Value>Server=DESKTOP-94JSSME%3bDatabase=WebAPI%3bTrusted_Connection=True%3bMultipleActiveResultSets=true</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
